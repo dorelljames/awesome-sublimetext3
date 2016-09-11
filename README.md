@@ -113,6 +113,8 @@ For more themes, colour schemes, etc., [go here](https://scotch.io/bar-talk/the-
 
 ## LINT YOUR CODE
 
+[SublimeLinter](http://www.sublimelinter.com/)
+
 A linter is a small program that checks code for stylistic or programming errors. Programming is hard. We are bound to make mistakes. The big advantage of using SublimeLinter is that your code can be linted as you type (before saving your changes) and any errors are highlighted immediately, which is considerably easier than saving the file, switching to a terminal, running a linter, reading through a list of errors, then switching back to Sublime Text to locate the errors!
 
 In addition, linters can help to enforce coding standards, find unused variables, and even make coffee for you — okay, so maybe they can’t make coffee. But they are an invaluable part of your programming toolkit.
