@@ -101,8 +101,18 @@ For more themes, colour schemes, etc., [go here](https://scotch.io/bar-talk/the-
 
   Sublime Text 3 out of the box has a nice utility for reindenting your code automatically. It works really well, too. To access it, simply popup open the Command Palette. However, it doesn’t automatically format it with new lines, beautify minified code, and more. For this you can simply use [HTMLPrettify](https://github.com/victorporof/Sublime-HTMLPrettify). It works for HTML, CSS, JS, and JSON files.
 
-4. 
+4. FASTER HTML/CSS/JADE, WHATEVER WITH ABBREVIATIONS & SHORTCUTS
 
+  In a nutshell, Emmet allows us to write HTML and CSS faster with abbreviations/shortcuts, then expand them in valid HTML tags. This is one of my most frequently used shortcut, which is a time-saver:
+  
+  E.g. ```((h4>a[rel=external])+p>img[width=500 height=320])*12```
+  
+  Above creates 12 lists of Headings followed with an image. I can then fill in my content without worrying about messing up the format using `TAB` key.
+  
+  Learn more about that [here](http://www.hongkiat.com/blog/html-css-faster-emmet/)
 
-- LINT YOUR CODE
-- AWESOME PACKAGES
+## LINT YOUR CODE
+
+A linter is a small program that checks code for stylistic or programming errors. Programming is hard. We are bound to make mistakes. The big advantage of using SublimeLinter is that your code can be linted as you type (before saving your changes) and any errors are highlighted immediately, which is considerably easier than saving the file, switching to a terminal, running a linter, reading through a list of errors, then switching back to Sublime Text to locate the errors!
+
+In addition, linters can help to enforce coding standards, find unused variables, and even make coffee for you — okay, so maybe they can’t make coffee. But they are an invaluable part of your programming toolkit.
