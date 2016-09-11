@@ -103,7 +103,7 @@ For more themes, colour schemes, etc., [go here](https://scotch.io/bar-talk/the-
 
 4. FASTER HTML/CSS/JADE, WHATEVER WITH ABBREVIATIONS & SHORTCUTS
 
-  In a nutshell, Emmet allows us to write HTML and CSS faster with abbreviations/shortcuts, then expand them in valid HTML tags. This is one of my most frequently used shortcut, which is a time-saver:
+  In a nutshell, [Emmet](https://github.com/sergeche/emmet-sublime) allows us to write HTML and CSS faster with abbreviations/shortcuts, then expand them in valid HTML tags. This is one of my most frequently used shortcut, which is a time-saver:
   
   E.g. ```((h4>a[rel=external])+p>img[width=500 height=320])*12```
   
